@@ -33,7 +33,7 @@ class CharacterDetailsLocationWidget extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
               maxLines: 1,
               location.type,
-              style: theme.textTheme.caption?.copyWith(fontSize: 13),
+              style: theme.textTheme.bodySmall?.copyWith(fontSize: 13),
             ),
             const SizedBox(
               height: 8.0,
@@ -42,7 +42,7 @@ class CharacterDetailsLocationWidget extends StatelessWidget {
               overflow: TextOverflow.ellipsis,
               maxLines: 1,
               location.name,
-              style: theme.textTheme.headline5?.copyWith(
+              style: theme.textTheme.headlineSmall?.copyWith(
                 fontWeight: FontWeight.bold,
               ),
             ),

@@ -13,7 +13,7 @@ class DefaultTryAgainWidget extends StatelessWidget {
           children: [
             Text(
               'Ops, something wrong happend',
-              style: Theme.of(context).textTheme.subtitle2,
+              style: Theme.of(context).textTheme.titleSmall,
             ),
             const SizedBox(
               height: 8,

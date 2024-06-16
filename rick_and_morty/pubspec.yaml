@@ -29,6 +29,7 @@ dependencies:
 
 dependency_overrides:
   test_api: 0.4.17
+  matcher: 0.12.16
 
 dev_dependencies:
   flutter_test:

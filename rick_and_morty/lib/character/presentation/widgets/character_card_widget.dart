@@ -38,7 +38,7 @@ class CharacterCardWidget extends StatelessWidget {
                         response.name,
                         overflow: TextOverflow.ellipsis,
                         maxLines: 1,
-                        style: theme.textTheme.headline5
+                        style: theme.textTheme.headlineSmall
                             ?.copyWith(fontWeight: FontWeight.bold),
                       ),
                       const SizedBox(
@@ -55,7 +55,7 @@ class CharacterCardWidget extends StatelessWidget {
                               overflow: TextOverflow.ellipsis,
                               maxLines: 1,
                               '${response.status} - ${response.species}',
-                              style: theme.textTheme.subtitle1,
+                              style: theme.textTheme.titleMedium,
                             ),
                           )
                         ],
@@ -65,7 +65,7 @@ class CharacterCardWidget extends StatelessWidget {
                       ),
                       Text(
                         'Last known location',
-                        style: theme.textTheme.caption?.copyWith(fontSize: 13),
+                        style: theme.textTheme.bodySmall?.copyWith(fontSize: 13),
                       ),
                       const SizedBox(
                         height: 8.0,
@@ -73,7 +73,7 @@ class CharacterCardWidget extends StatelessWidget {
                       Expanded(
                         child: Text(
                           response.location.name,
-                          style: theme.textTheme.subtitle1,
+                          style: theme.textTheme.titleMedium,
                         ),
                       )
                     ],
